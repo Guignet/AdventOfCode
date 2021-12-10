@@ -6,7 +6,7 @@ fill up the Readme.md to explain the code
 
 # Day 1 
 ```bash
-make
+day1/make
 ```
 to run the proramm
 
