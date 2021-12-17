@@ -1,6 +1,4 @@
-#include <string>
-#include <iostream>
-#include <fstream>
-#include <vector>
+#include "../header/grille.hh"
+
 using namespace std;
 
