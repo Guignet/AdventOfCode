@@ -41,3 +41,24 @@ void Grille::mark_number(int val){
         
     }
 }
+
+int Grille::sum_unmarked(){
+    int res = 0;
+    for(vector<pair<int,int>> a:tab){
+        for(pair<int,int> b : a){
+            if(b.second==0){
+            res += b.first;
+            }
+        }
+    }
+    return res;
+}
+
+void Grille::print_(){
+    for(vector<pair<int,int>> a : tab){
+        for(pair<int,int> b : a){
+            cout << "[" << b.first << "," << b.second << "]" << " ";
+        }
+        cout <<endl;
+    }
+}

@@ -34,7 +34,7 @@ vector<int> file_to_list_number(string const nomFich){
     }
 }
 
-Grille create_Grille(string const nomFich){
+Grille create_Grille(){
     ifstream flux("src/tmp.txt");
     Grille res;
     int tmp;
@@ -59,4 +59,34 @@ Grille create_Grille(string const nomFich){
         cout << "ERORR could not read file/file does not exist"<< endl;
     return res;
     }
+}
+
+int Part1_res(string const nomFich){
+    vector<int> LoN = file_to_list_number(nomFich);
+    vector<Grille> AllGrille ;
+    for(int i=0;i<100;i++){
+        AllGrille.push_back(create_Grille());
+    } 
+
+    for(int a:LoN){
+        for(int i=0;i<AllGrille.size();i++){
+            AllGrille[i].mark_number(a);
+        }
+        for(int i=0;i<AllGrille.size();i++){
+            if(AllGrille[i].is_collumn_win()||AllGrille[i].is_row_win()){
+                return a*AllGrille[i].sum_unmarked();
+            }
+        }
+    }
+  return 0;
+}
+
+
+int Part2_res(string const nomFich){
+    vector<int> LoN = file_to_list_number(nomFich);
+    vector<Grille> AllGrille ;
+    for(int i=0;i<100;i++){
+        AllGrille.push_back(create_Grille());
+    } 
+
 }
