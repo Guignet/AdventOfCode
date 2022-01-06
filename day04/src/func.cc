@@ -88,5 +88,19 @@ int Part2_res(string const nomFich){
     for(int i=0;i<100;i++){
         AllGrille.push_back(create_Grille());
     } 
+    vector<int> I;
+    for(int i=0;i<AllGrille.size();i++){
+        I.push_back(i);
+    }
+    for(int a:LoN){
+        for(int i=0;i<AllGrille.size();i++){
+            AllGrille[i].mark_number(a);
+        }
+        for(int i:I){
+            if(AllGrille[i].is_collumn_win()||AllGrille[i].is_row_win()){
+                I[i]=0;
 
+            }
+        }
+    }
 }
