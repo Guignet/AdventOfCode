@@ -3,6 +3,7 @@
 Grille::Grille(){
     size = 5;
     tab.resize(size);
+    win = 0;
 }
 
 bool Grille::is_collumn_win(){
@@ -13,7 +14,10 @@ bool Grille::is_collumn_win(){
             else count++;
 
         }
-        if(count == 5)return true;
+        if(count == 5){
+            win = 1;
+            return true;
+        }
     }
     return false;
 }
@@ -26,7 +30,10 @@ bool Grille::is_row_win(){
             else count++;
 
         }
-        if(count == 5)return true;
+        if(count == 5){
+            win = 1;
+            return true;
+        }
     }
     return false;
 }

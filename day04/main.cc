@@ -21,7 +21,7 @@ int main(){
 
   // }
 
-  cout << Part1_res("src/keep.txt") << endl ;
-
+  cout << "Part I res : " <<Part1_res("src/keep.txt") << endl ;
+  cout << "Part II res : " << Part2_res("src/keep.txt") << endl ;
   return 0;
 }

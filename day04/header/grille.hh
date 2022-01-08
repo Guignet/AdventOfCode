@@ -9,6 +9,7 @@ class Grille {
     public:
         int size;
         vector<vector<pair<int,int>>> tab;
+        int win;
         //constructor
         Grille();
         bool is_collumn_win();
