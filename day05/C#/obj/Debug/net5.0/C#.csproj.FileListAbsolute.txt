@@ -1,0 +1,16 @@
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/bin/Debug/net5.0/C#
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/bin/Debug/net5.0/C#.deps.json
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/bin/Debug/net5.0/C#.runtimeconfig.json
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/bin/Debug/net5.0/C#.runtimeconfig.dev.json
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/bin/Debug/net5.0/C#.dll
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/bin/Debug/net5.0/ref/C#.dll
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/bin/Debug/net5.0/C#.pdb
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/obj/Debug/net5.0/C#.csproj.AssemblyReference.cache
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/obj/Debug/net5.0/C#.GeneratedMSBuildEditorConfig.editorconfig
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/obj/Debug/net5.0/C#.AssemblyInfoInputs.cache
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/obj/Debug/net5.0/C#.AssemblyInfo.cs
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/obj/Debug/net5.0/C#.csproj.CoreCompileInputs.cache
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/obj/Debug/net5.0/C#.dll
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/obj/Debug/net5.0/ref/C#.dll
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/obj/Debug/net5.0/C#.pdb
+/home/guignet/Documents/code/AoC/AdventOfCode/day05/C#/obj/Debug/net5.0/C#.genruntimeconfig.cache
