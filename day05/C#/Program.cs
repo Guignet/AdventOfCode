@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Collections;
+using System.Text.RegularExpressions;
 
 namespace C_
 {
@@ -8,15 +9,16 @@ namespace C_
     {
         // public int osef { get; set; } = 42;
         public int osef = 42 ;
-        public string fich = "input.txt";
+        public string fich = "input2.txt";
         static void Main(string[] args){
             Program p =  new Program();
 
             ArrayList allVect = p.Init_ArrayList(p.fich);
             foreach(ArrayList Vect in allVect){
                 foreach(int x in Vect){
-                    Console.Write(" {0}",x);
+                    Console.Write("{0} ",x);
                 }
+                Console.Write("\n");
             }
 
        
@@ -29,25 +31,27 @@ namespace C_
             int a = this.osef;
             ArrayList AllVector = new ArrayList();
             string[] lines = System.IO.File.ReadAllLines(nomFich);
-
+            Regex rgxDigit = new Regex(@"\d+");
+             
             foreach (string line in lines){
                 ArrayList aL = new ArrayList();
-                string tmp ="";
-                foreach(char c in line){
-                    if(c!=','&&c!='='&&c!='>'&&c!=' '){
-                        tmp += c;
-                    }
-                    else{
-                        aL.Add(tmp);
-                        tmp = "";
-                    }
+                string tmp = line;
+                for(int i=0;i<4;i++){
+                    string digitString = rgxDigit.Match(tmp).Value;
+                    aL.Add(Int32.Parse(digitString));
+                    tmp = Regex.Replace(tmp,@"^[,]*[ ]*[-]*[>]*[ ]*\d+","");
+                    // Console.WriteLine(tmp);
                 }
+                
                 AllVector.Add(aL);
             }
+
 
             return AllVector;
         }
     }
+
+    
 }
 
 
