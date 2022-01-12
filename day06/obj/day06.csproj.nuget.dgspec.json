@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/Users/COPKORN-PC-Fixe/Documents/code/Code/adventofcode/AdventOfCode/day06/day06.csproj": {}
+    "/home/guignet/Documents/code/AoC/AdventOfCode/day06/day06.csproj": {}
   },
   "projects": {
-    "/mnt/c/Users/COPKORN-PC-Fixe/Documents/code/Code/adventofcode/AdventOfCode/day06/day06.csproj": {
+    "/home/guignet/Documents/code/AoC/AdventOfCode/day06/day06.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/Users/COPKORN-PC-Fixe/Documents/code/Code/adventofcode/AdventOfCode/day06/day06.csproj",
+        "projectUniqueName": "/home/guignet/Documents/code/AoC/AdventOfCode/day06/day06.csproj",
         "projectName": "day06",
-        "projectPath": "/mnt/c/Users/COPKORN-PC-Fixe/Documents/code/Code/adventofcode/AdventOfCode/day06/day06.csproj",
+        "projectPath": "/home/guignet/Documents/code/AoC/AdventOfCode/day06/day06.csproj",
         "packagesPath": "/home/guignet/.nuget/packages/",
-        "outputPath": "/mnt/c/Users/COPKORN-PC-Fixe/Documents/code/Code/adventofcode/AdventOfCode/day06/obj/",
+        "outputPath": "/home/guignet/Documents/code/AoC/AdventOfCode/day06/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/guignet/.nuget/NuGet/NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
         }
       }
     }
