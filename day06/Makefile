@@ -1,3 +1,3 @@
 #Makefile to run the programm
 run:
-	dotnet run
+	dotnet run 256
