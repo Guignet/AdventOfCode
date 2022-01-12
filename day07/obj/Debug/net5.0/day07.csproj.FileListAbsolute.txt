@@ -1,0 +1,16 @@
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/bin/Debug/net5.0/day07
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/bin/Debug/net5.0/day07.deps.json
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/bin/Debug/net5.0/day07.runtimeconfig.json
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/bin/Debug/net5.0/day07.runtimeconfig.dev.json
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/bin/Debug/net5.0/day07.dll
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/bin/Debug/net5.0/ref/day07.dll
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/bin/Debug/net5.0/day07.pdb
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/obj/Debug/net5.0/day07.csproj.AssemblyReference.cache
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/obj/Debug/net5.0/day07.GeneratedMSBuildEditorConfig.editorconfig
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/obj/Debug/net5.0/day07.AssemblyInfoInputs.cache
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/obj/Debug/net5.0/day07.AssemblyInfo.cs
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/obj/Debug/net5.0/day07.csproj.CoreCompileInputs.cache
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/obj/Debug/net5.0/day07.dll
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/obj/Debug/net5.0/ref/day07.dll
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/obj/Debug/net5.0/day07.pdb
+/home/guignet/Documents/code/AoC/AdventOfCode/day07/obj/Debug/net5.0/day07.genruntimeconfig.cache
