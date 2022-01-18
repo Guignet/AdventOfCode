@@ -110,7 +110,7 @@ namespace day08
                 List<string> number = new List<string>();
                 List<string> tmp_6 = new List<string>();
                 List<string> tmp_5 = new List<string>();
-                string tmp;
+                // string tmp;
                 for(int i=0;i<7;i++){
                     line.Add("");
                 }
